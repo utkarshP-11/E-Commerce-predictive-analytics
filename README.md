@@ -12,8 +12,7 @@ The business served **4,338 customers** who placed **18,532 orders**, averaging 
 
 The project follows a complete analytics workflow, starting from data cleaning and exploratory analysis and progressing to advanced customer analytics and machine learning models.
 
-👉 **[View Full Documentation](../../wiki)**
-
+👉 **[View Full Documentation](https://github.com/utkarshP-11/E-Commerce-predictive-analytics/wiki)** for detailed project methodology, SQL analysis, EDA, customer analytics and machine learning models.
 
 ---
 
@@ -57,62 +56,19 @@ Customer Lifetime Value Prediction
 ```
 
 ---
+## Dataset Source
+
+The data used in this project is the **`Online Retail Data Set.xlsx`**, publicly available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail). It contains transnational transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
+
+---
 
 ## Analytics Components
 
-### Data Preparation
-
-- Data Quality Assessment
-- Missing Value Handling
-- Transaction Validation
-- Revenue Feature Creation
-
-### Exploratory Data Analysis
-
-- Revenue Trends
-- Customer Behavior Analysis
-- Geographic Analysis
-- Product Performance Analysis
-
-### Customer Analytics
-
-- RFM Analysis
-- Cohort Analysis
-- Churn Analysis
-- Customer Segmentation
-
-### Machine Learning
-
-#### Customer Churn Prediction
-
-Models Evaluated:
-
-- Logistic Regression
-- Random Forest Classifier
-
-Best Model Performance:
-
-| Metric | Score |
-|----------|---------:|
-| Accuracy | 87.1% |
-| Precision | 85.3% |
-| Recall | 74.1% |
-| F1 Score | 79.3% |
-
-#### Customer Lifetime Value Prediction
-
-Models Evaluated:
-
-- Linear Regression
-- Random Forest Regressor
-
-Best Model Performance:
-
-| Metric | Score |
-|----------|---------:|
-| R² Score | 0.62 |
-| MAE | 0.595 |
-
+- **Data Preparation:** Data quality assessment, missing value treatment, transaction validation, and feature engineering.
+- **Exploratory Analysis:** Revenue trends, customer behavior, product performance, and geographic sales analysis.
+- **Customer Intelligence:** RFM analysis, cohort retention analysis, churn analysis, and K-Means customer segmentation.
+- **Customer Churn Prediction:** Evaluated Logistic Regression and Random Forest models, with **Random Forest** achieving **87.10% Accuracy**, **79.26% F1-Score**, and **0.9453 ROC-AUC**.
+- **Customer Lifetime Value Prediction:** Evaluated Linear Regression and Random Forest Regressor models, with **Random Forest Regressor** achieving **62.08% R²** and **0.5950 MAE**.
 ---
 
 ## Key Insights
@@ -146,31 +102,15 @@ Best Model Performance:
 
 ## Technologies Used
 
-### Data Analysis
+**Languages & Querying:** SQL, Python
 
-- SQL
-- Python
-- Pandas
-- NumPy
+**Data Analysis:** Pandas, NumPy
 
-### Data Visualization
+**Visualization:** Matplotlib, Seaborn
 
-- Matplotlib
-- Seaborn
+**Machine Learning:** Scikit-Learn, Logistic Regression, Random Forest, K-Means Clustering
 
-### Machine Learning
-
-- Scikit-Learn
-- Logistic Regression
-- Random Forest
-- K-Means Clustering
-
-### Development Environment
-
-- Jupyter Notebook
-- Google Colab
-- Git
-- GitHub
+**Development Tools:** Jupyter Notebook, Google Colab, Git, GitHub
 
 ---
 
@@ -232,7 +172,7 @@ Detailed documentation for each stage of the project is available in the GitHub 
 - Customer Lifetime Value Prediction
 - Recommendations & Conclusion
 
-👉 **[View Full Documentation](../../wiki)**
+👉 **[View Full Documentation](https://github.com/utkarshP-11/E-Commerce-predictive-analytics/wiki)**
 
 ---
 ### Business Questions Addressed
