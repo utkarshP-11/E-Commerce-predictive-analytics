@@ -22,11 +22,7 @@ The project follows a complete analytics workflow, starting from data cleaning a
 👉 **[View Full Documentation](https://github.com/utkarshP-11/E-Commerce-predictive-analytics/wiki)** for detailed project methodology, SQL analysis, EDA, customer analytics and machine learning models.
 
 ---
-<div align="center">
-  <img src="output_Images/cohort_retention_heatmap.png" alt="Cohort Retention Heatmap" width="700">
-</div>
 
----
 ## Key Results
 
 | Metric | Value |
@@ -68,6 +64,8 @@ The data used in this project is the **`Online Retail Data Set.xlsx`**, publicly
 
 - Approximately **33% of customers** were identified as churned i.e. 1 in 3 customers were identified as churned.
 - Customer retention declines steadily over time, highlighting the importance of proactive engagement strategies.
+- <img width="820" height="701" alt="cohort_retention_heatmap" src="https://github.com/user-attachments/assets/911639f5-64e5-43ce-aba6-a0dc0c9f06df" />
+
 
 ### Customer Segmentation
 
@@ -89,6 +87,9 @@ The data used in this project is the **`Online Retail Data Set.xlsx`**, publicly
 
 - The Random Forest churn model achieved **87.10% accuracy**, **79.26% F1-score**, and an **ROC-AUC of 0.9453**, enabling highly reliable identification of customers at risk of churning.
 - The Customer Lifetime Value (CLV) prediction model achieved an **R² score of 62.08%** and a **Mean Absolute Error (MAE) of 0.5950**, with the Random Forest Regressor outperforming Linear Regression in predicting future customer value.
+- ROC Curve display
+ <img width="520" alt="RocCurveDisplay" src="https://github.com/user-attachments/assets/ea001f7c-8562-4fd3-ba6d-934bac0b814d" />
+
 ---
 
 ## Technologies Used
