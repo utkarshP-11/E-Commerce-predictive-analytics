@@ -22,7 +22,11 @@ The project follows a complete analytics workflow, starting from data cleaning a
 👉 **[View Full Documentation](https://github.com/utkarshP-11/E-Commerce-predictive-analytics/wiki)** for detailed project methodology, SQL analysis, EDA, customer analytics and machine learning models.
 
 ---
+<div align="center">
+  <img src="output_Images/cohort_retention_heatmap.png" alt="Cohort Retention Heatmap" width="700">
+</div>
 
+---
 ## Key Results
 
 | Metric | Value |
@@ -40,7 +44,7 @@ The project follows a complete analytics workflow, starting from data cleaning a
 
 ## Project Workflow
 
-<img width="820" height="1103" alt="image" src="https://github.com/user-attachments/assets/7cb4df1b-22c0-44fd-b97d-e0001f844ac1" />
+<img width="700" height="1103" alt="image" src="https://github.com/user-attachments/assets/7cb4df1b-22c0-44fd-b97d-e0001f844ac1" />
 
 ---
 ## Dataset Source
