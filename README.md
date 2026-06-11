@@ -3,6 +3,13 @@
 > A complete analytics and machine learning project that transforms raw retail transaction data into actionable customer insights, churn predictions, and customer lifetime value forecasts.
 
 ---
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Jupyter Notebook](https://img.shields.io/badge/Tools-Jupyter_Notebook-orange.svg)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-Scikit_Learn-yellow.svg)
+![SQL](https://img.shields.io/badge/Database-SQL-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+---
 
 ## Overview
 
@@ -33,27 +40,7 @@ The project follows a complete analytics workflow, starting from data cleaning a
 
 ## Project Workflow
 
-```text
-SQL
-↓
-Data Understanding & Cleaning
-↓
-Feature Engineering
-↓
-Exploratory Data Analysis
-↓
-RFM Analysis
-↓
-Cohort Analysis
-↓
-Churn Analysis
-↓
-Customer Segmentation (K-Means)
-↓
-Customer Churn Prediction
-↓
-Customer Lifetime Value Prediction
-```
+<img width="820" height="1103" alt="image" src="https://github.com/user-attachments/assets/7cb4df1b-22c0-44fd-b97d-e0001f844ac1" />
 
 ---
 ## Dataset Source
