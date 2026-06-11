@@ -8,7 +8,11 @@
 
 This project analyzes over **397,000 retail transactions** and **4,338 customers** to uncover purchasing patterns, customer behavior, retention trends, and revenue opportunities.
 
+The business served **4,338 customers** who placed **18,532 orders**, averaging **4.27 orders per customer**, with each customer generating **£2,054.27 in revenue** and an **average order value of £480.87**.
+
 The project follows a complete analytics workflow, starting from data cleaning and exploratory analysis and progressing to advanced customer analytics and machine learning models.
+
+👉 **[View Full Documentation](../../wiki)**
 
 
 ---
@@ -115,24 +119,29 @@ Best Model Performance:
 
 ### Customer Retention
 
-- Approximately **33% of customers** were identified as churned.
+- Approximately **33% of customers** were identified as churned i.e. 1 in 3 customers were identified as churned.
 - Customer retention declines steadily over time, highlighting the importance of proactive engagement strategies.
 
 ### Customer Segmentation
 
 - **348 Champion customers** were identified as the highest-value segment.
+- The highest-value customer generated $280,206.02 in lifetime revenue.
 - **1,708 At-Risk customers** represent the largest customer segment and a significant retention opportunity.
 
 ### Revenue Performance
 
 - The business generated over **£8.9 million** in revenue.
+- The top 20% of products contributed 78.99% (£7.038M) of total revenue (£8.91M).
+- The top 10 customers contributed 17.26% (£1.537M) of total business revenue (£8.91M).
+- The United Kingdom generated 82.01% of total revenue, making it the dominant market.
+- Netherlands follows as the second-largest market, bringing in 3.20% of total revenue.
+- The top 3 countries contributed 88.19% of total revenue.
 - Revenue was heavily concentrated among a small group of high-value customers.
 
 ### Predictive Analytics
 
-- Churn prediction achieved **87.1% accuracy**, enabling early identification of customers likely to leave.
-- CLV prediction successfully estimated future customer value with an **R² score of 0.62**.
-
+- The Random Forest churn model achieved **87.10% accuracy**, **79.26% F1-score**, and an **ROC-AUC of 0.9453**, enabling highly reliable identification of customers at risk of churning.
+- The Customer Lifetime Value (CLV) prediction model achieved an **R² score of 62.08%** and a **Mean Absolute Error (MAE) of 0.5950**, with the Random Forest Regressor outperforming Linear Regression in predicting future customer value.
 ---
 
 ## Technologies Used
