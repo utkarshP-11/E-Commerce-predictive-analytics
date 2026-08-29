@@ -3,6 +3,13 @@
 > A complete analytics and machine learning project that transforms raw retail transaction data into actionable customer insights, churn predictions, and customer lifetime value forecasts.
 
 ---
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Jupyter Notebook](https://img.shields.io/badge/Tools-Jupyter_Notebook-orange.svg)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-Scikit_Learn-yellow.svg)
+![SQL](https://img.shields.io/badge/Database-SQL-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+---
 
 ## Overview
 
@@ -12,8 +19,7 @@ The business served **4,338 customers** who placed **18,532 orders**, averaging 
 
 The project follows a complete analytics workflow, starting from data cleaning and exploratory analysis and progressing to advanced customer analytics and machine learning models.
 
-👉 **[View Full Documentation](../../wiki)**
-
+👉 **[View Full Documentation](https://github.com/utkarshP-11/E-Commerce-predictive-analytics/wiki)** for detailed project methodology, SQL analysis, EDA, customer analytics and machine learning models.
 
 ---
 
@@ -34,85 +40,22 @@ The project follows a complete analytics workflow, starting from data cleaning a
 
 ## Project Workflow
 
-```text
-SQL
-↓
-Data Understanding & Cleaning
-↓
-Feature Engineering
-↓
-Exploratory Data Analysis
-↓
-RFM Analysis
-↓
-Cohort Analysis
-↓
-Churn Analysis
-↓
-Customer Segmentation (K-Means)
-↓
-Customer Churn Prediction
-↓
-Customer Lifetime Value Prediction
-```
+<img width="700" height="1103" alt="image" src="https://github.com/user-attachments/assets/7cb4df1b-22c0-44fd-b97d-e0001f844ac1" />
+
+---
+## Dataset Source
+
+The data used in this project is the **`Online Retail Data Set.xlsx`**, publicly available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail). It contains transnational transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
 
 ---
 
 ## Analytics Components
 
-### Data Preparation
-
-- Data Quality Assessment
-- Missing Value Handling
-- Transaction Validation
-- Revenue Feature Creation
-
-### Exploratory Data Analysis
-
-- Revenue Trends
-- Customer Behavior Analysis
-- Geographic Analysis
-- Product Performance Analysis
-
-### Customer Analytics
-
-- RFM Analysis
-- Cohort Analysis
-- Churn Analysis
-- Customer Segmentation
-
-### Machine Learning
-
-#### Customer Churn Prediction
-
-Models Evaluated:
-
-- Logistic Regression
-- Random Forest Classifier
-
-Best Model Performance:
-
-| Metric | Score |
-|----------|---------:|
-| Accuracy | 87.1% |
-| Precision | 85.3% |
-| Recall | 74.1% |
-| F1 Score | 79.3% |
-
-#### Customer Lifetime Value Prediction
-
-Models Evaluated:
-
-- Linear Regression
-- Random Forest Regressor
-
-Best Model Performance:
-
-| Metric | Score |
-|----------|---------:|
-| R² Score | 0.62 |
-| MAE | 0.595 |
-
+- **Data Preparation:** Data quality assessment, missing value treatment, transaction validation, and feature engineering.
+- **Exploratory Analysis:** Revenue trends, customer behavior, product performance, and geographic sales analysis.
+- **Customer Intelligence:** RFM analysis, cohort retention analysis, churn analysis, and K-Means customer segmentation.
+- **Customer Churn Prediction:** Evaluated Logistic Regression and Random Forest models, with **Random Forest** achieving **87.10% Accuracy**, **79.26% F1-Score**, and **0.9453 ROC-AUC**.
+- **Customer Lifetime Value Prediction:** Evaluated Linear Regression and Random Forest Regressor models, with **Random Forest Regressor** achieving **62.08% R²** and **0.5950 MAE**.
 ---
 
 ## Key Insights
@@ -121,6 +64,8 @@ Best Model Performance:
 
 - Approximately **33% of customers** were identified as churned i.e. 1 in 3 customers were identified as churned.
 - Customer retention declines steadily over time, highlighting the importance of proactive engagement strategies.
+- <img width="820" height="701" alt="cohort_retention_heatmap" src="https://github.com/user-attachments/assets/911639f5-64e5-43ce-aba6-a0dc0c9f06df" />
+
 
 ### Customer Segmentation
 
@@ -142,35 +87,22 @@ Best Model Performance:
 
 - The Random Forest churn model achieved **87.10% accuracy**, **79.26% F1-score**, and an **ROC-AUC of 0.9453**, enabling highly reliable identification of customers at risk of churning.
 - The Customer Lifetime Value (CLV) prediction model achieved an **R² score of 62.08%** and a **Mean Absolute Error (MAE) of 0.5950**, with the Random Forest Regressor outperforming Linear Regression in predicting future customer value.
+- ROC Curve display
+ <img width="520" alt="RocCurveDisplay" src="https://github.com/user-attachments/assets/ea001f7c-8562-4fd3-ba6d-934bac0b814d" />
+
 ---
 
 ## Technologies Used
 
-### Data Analysis
+**Languages & Querying:** SQL, Python
 
-- SQL
-- Python
-- Pandas
-- NumPy
+**Data Analysis:** Pandas, NumPy
 
-### Data Visualization
+**Visualization:** Matplotlib, Seaborn
 
-- Matplotlib
-- Seaborn
+**Machine Learning:** Scikit-Learn, Logistic Regression, Random Forest, K-Means Clustering
 
-### Machine Learning
-
-- Scikit-Learn
-- Logistic Regression
-- Random Forest
-- K-Means Clustering
-
-### Development Environment
-
-- Jupyter Notebook
-- Google Colab
-- Git
-- GitHub
+**Development Tools:** Jupyter Notebook, Google Colab, Git, GitHub
 
 ---
 
@@ -232,7 +164,7 @@ Detailed documentation for each stage of the project is available in the GitHub 
 - Customer Lifetime Value Prediction
 - Recommendations & Conclusion
 
-👉 **[View Full Documentation](../../wiki)**
+👉 **[View Full Documentation](https://github.com/utkarshP-11/E-Commerce-predictive-analytics/wiki)**
 
 ---
 ### Business Questions Addressed
