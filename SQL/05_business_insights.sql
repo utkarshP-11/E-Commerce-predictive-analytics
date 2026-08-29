@@ -43,8 +43,11 @@ ORDER BY Year,Month;
 SELECT
 Year,
 Month,
-COUNT(DISTINCT CustomerID)
-AS ActiveCustomers
+COUNT(DISTINCT CustomerID) AS ActiveCustomers
 FROM retail_features
 GROUP BY Year,Month
 ORDER BY Year,Month;
+
+# 6. total countries covered
+SELECT count(distinct(country))
+from retail_features;                     #37

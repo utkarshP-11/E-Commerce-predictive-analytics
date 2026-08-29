@@ -39,6 +39,10 @@ FROM retail_features
 GROUP BY InvoiceNo
 )t;                                       # 480.87
 
+
+select round(sum(revenue)/count(distinct InvoiceNo),2)
+from retail_features;
+
 # 6. Top Active Customers OR Customer Purchase Frequency
 SELECT
 CustomerID,

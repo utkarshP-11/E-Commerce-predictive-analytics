@@ -53,3 +53,37 @@ FROM retail_features
 GROUP BY Description
 ORDER BY RevenueShare DESC
 LIMIT 20;
+
+# 6. total unique Products 
+SELECT count(distinct(Description))
+from retail_features;                     #3877
+
+# 7. Pareto Analysis (80/20 Rule)  
+# Roughly 80% of the outcome comes from 20% of the causes
+WITH product_revenue AS
+(
+    SELECT
+        Description,
+        SUM(Revenue) AS Revenue
+    FROM retail_features
+    GROUP BY Description
+),
+
+ranked_products AS
+(
+    SELECT
+        Description,
+        Revenue,
+        ROW_NUMBER() OVER (ORDER BY Revenue DESC) AS rn,
+        COUNT(*) OVER () AS total_products
+    FROM product_revenue
+)
+
+SELECT
+    ROUND(
+        SUM(Revenue) * 100.0 /
+        (SELECT SUM(Revenue) FROM product_revenue),
+        2
+    ) AS RevenueContribution
+FROM ranked_products
+WHERE rn <= CEIL(total_products * 0.20);

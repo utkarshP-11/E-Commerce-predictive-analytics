@@ -3,6 +3,7 @@ USE retail_analytics;
 # Identifying high-value customers and revenue concentration.
 
 # 1. Customer Lifetime Value
+# total revenue or profit a customer is expected to generate over the entire duration
 SELECT
 CustomerID,
 ROUND(SUM(Revenue),2)

@@ -20,13 +20,22 @@ COUNT(*)
 ,2) AS RepeatPurchaseRate
 FROM customer_orders;                                  # 65.58
 
+
+select round(count(*) * 100.00/(select count(distinct CustomerID) from retail_features),2)
+as repeatpurchaserate
+from (
+select CustomerID
+from retail_features
+group by CustomerID
+having count(distinct InvoiceNo) >= 2) t;
+
 # 2. Monthly Active Customers
 SELECT
-Year,
-Month,
+year(InvoiceDate) Year,
+month(InvoiceDate) Month,
 COUNT(DISTINCT CustomerID) AS ActiveCustomers
 FROM retail_features
-GROUP BY Year,Month
+GROUP BY year(InvoiceDate),month(InvoiceDate)
 ORDER BY Year,Month;           
 
 # 3. New Customers Per Month
